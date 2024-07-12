@@ -43,7 +43,7 @@ const ProductDescription = ({ handleAddToCart, setCount }) => {
             onClick={handleSubtract}
             className='bg-gray-100 md:w-10 w-1/3 h-10 flex justify-center items-center rounded-r-md'
           >
-            <img src='/public/media/images/icon-minus.svg' alt='minus' />
+            <img src='/media/images/icon-minus.svg' alt='minus' />
           </button>
 
           <span className='bg-gray-100 md:w-10 w-1/3 h-10 flex justify-center items-center border-t border-b border-transparent'>
@@ -54,7 +54,7 @@ const ProductDescription = ({ handleAddToCart, setCount }) => {
             onClick={handleAdd}
             className='bg-gray-100 md:w-10 w-1/3 h-10 flex justify-center items-center rounded-l-md'
           >
-            <img src='/public/media/images/icon-plus.svg' alt='add' />
+            <img src='/media/images/icon-plus.svg' alt='add' />
           </button>
         </div>
         <button
@@ -62,7 +62,7 @@ const ProductDescription = ({ handleAddToCart, setCount }) => {
           className='bg-orange-500 hover:bg-orange-300 w-full md:w-auto h-14  md:h-auto text-black text-sm font-semibold px-8 py-2 rounded-md flex gap-4 items-center text-center justify-center md:justify-start'
         >
           <img
-            src='/public/media/images/icon-cart.svg'
+            src='/media/images/icon-cart.svg'
             alt='add to cart'
             className='filter brightness-0 w-4'
           />
