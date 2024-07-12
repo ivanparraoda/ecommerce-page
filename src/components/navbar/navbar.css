@@ -1,0 +1,34 @@
+.nav-bar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 6%;
+  width: 88%;
+  border-bottom: 1px solid #D1D5DB;
+}
+
+
+.hover-effect {
+  position: relative;
+
+}
+
+.hover-effect::after {
+  content: '';
+  position: absolute;
+  z-index: 10;
+  width: 0;
+  height: 3px;
+  bottom: -40px;
+  left: 0;
+  background-color: rgb(253, 126, 41);
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-effect:hover::after {
+  width: 100%;
+}
+
+span {
+  border-bottom: 1px solid #D1D5DB;
+}
