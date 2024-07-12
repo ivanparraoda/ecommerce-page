@@ -31,7 +31,7 @@ const CartCard = ({ cart, handleDeleteItem }) => {
                 </div>
               </div>
               <img
-                src='/public/media/images/icon-delete.svg'
+                src='/media/images/icon-delete.svg'
                 alt='delete item'
                 className='w-3 h-4 cursor-pointer'
                 onClick={() => handleDeleteItem(item.id)}

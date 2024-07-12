@@ -7,26 +7,26 @@ import CartCard from './components/CartCard'
 const images = [
   {
     id: 1,
-    large: '/public/media/images/image-product-1.jpg',
-    thumbnail: '/public/media/images/image-product-1-thumbnail.jpg',
+    large: '/media/images/image-product-1.jpg',
+    thumbnail: '/media/images/image-product-1-thumbnail.jpg',
     alt: 'img1'
   },
   {
     id: 2,
-    large: '/public/media/images/image-product-2.jpg',
-    thumbnail: '/public/media/images/image-product-2-thumbnail.jpg',
+    large: '/media/images/image-product-2.jpg',
+    thumbnail: '/media/images/image-product-2-thumbnail.jpg',
     alt: 'img2'
   },
   {
     id: 3,
-    large: '/public/media/images/image-product-3.jpg',
-    thumbnail: '/public/media/images/image-product-3-thumbnail.jpg',
+    large: '/media/images/image-product-3.jpg',
+    thumbnail: '/media/images/image-product-3-thumbnail.jpg',
     alt: 'img3'
   },
   {
     id: 4,
-    large: '/public/media/images/image-product-4.jpg',
-    thumbnail: '/public/media/images/image-product-4-thumbnail.jpg',
+    large: '/images/image-product-4.jpg',
+    thumbnail: '/media/images/image-product-4-thumbnail.jpg',
     alt: 'img4'
   }
 ]
@@ -58,7 +58,7 @@ function App() {
             name: 'Fall Limited Edition Sneakers',
             price: 125.0,
             quantity: localCount,
-            image: '/public/media/images/image-product-1-thumbnail.jpg'
+            image: '/media/images/image-product-1-thumbnail.jpg'
           }
         ])
       }
