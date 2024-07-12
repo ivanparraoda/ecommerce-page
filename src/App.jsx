@@ -25,7 +25,7 @@ const images = [
   },
   {
     id: 4,
-    large: '/images/image-product-4.jpg',
+    large: '/media/images/image-product-4.jpg',
     thumbnail: '/media/images/image-product-4-thumbnail.jpg',
     alt: 'img4'
   }
